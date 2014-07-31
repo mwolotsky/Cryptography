@@ -6,7 +6,7 @@ from Crypto.PublicKey import RSA
 from Crypto.PublicKey import DSA
 from Crypto.Util import asn1
 def prompt() :
-    sys.stdout.write('<SSL-Cryptographic Messenger> ')
+    sys.stdout.write('<SSL Cryptographic Messenger> ')
     sys.stdout.flush()
 
 RSA1280.exportKeys()
